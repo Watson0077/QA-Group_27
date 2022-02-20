@@ -1,4 +1,6 @@
 TXT
+Link(https://github.com/Watson0077/TXT)
+
  1. Создать внешний репозиторий c названием TXT.
 
 #Repisitories
@@ -15,7 +17,7 @@ TXT
 
  4. Добавить файл под гит.
 
-#CtrlO,Enter,CtrlX
+#git add .
 
  5. Закоммитить файл.
 
@@ -51,9 +53,7 @@ TXT
 
  12. Сделать коммит в одну строку.
 
-#git status
-#git add .
-#git commit -m"add 2 files"
+#git add . && git commit -am "add 2 Files"
 
  13. Отправить сразу 2 файла на внешний репозиторий.
 
@@ -80,4 +80,5 @@ TXT
  18. Синхронизировать внешний и локальный репозиторий TXT
 
 #git pull
-#git push
+
+

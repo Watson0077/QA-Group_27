@@ -1,4 +1,6 @@
 JSON
+LINK (https://github.com/Watson0077/JSON)
+
  1. Создать внешний репозиторий c названием JSON.
 
 #cd JSON
@@ -13,7 +15,7 @@ JSON
 
  4. Добавить файл под гит.
 
-#Ctrl o,ENTER,CtrlX
+#git add .
 
  5. Закоммитить файл.
 
@@ -54,7 +56,6 @@ JSON
 #git status
 #git add .
 #git commit -m "add 2 files"
-#git pull
 #git push
 
  13. На веб интерфейсе создать файл bug_report.json.
@@ -73,10 +74,9 @@ JSON
 
  16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
-#Commit new file
+#Commit changes
+
  17. Синхронизировать внешний и локальный репозиторий JSON
 
-#git status
 #git pull
-#git push
-#ls -la
+
